@@ -8,7 +8,7 @@ import thunderstorm from './images/thunderstorm.png'
 import mist from './images/mist.png'
 import snow_and_rain from './images/snow_and_rain.png'
 
-const API_KEY = `${process.env.REACT_APP_API_KEY}`;
+const API_KEY = `${process.env.REACT_APP_API_KEY ? process.env.REACT_APP_API_KEY : 'a4e4d532508fcfb2033b3b2141620831'}`;
 
 export default class Main extends Component {
     constructor(props) {
